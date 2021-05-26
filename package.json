@@ -1,0 +1,13 @@
+{
+  "name": "comboformatter",
+  "version": "1.0.0",
+  "description": "simple user:pass formatter",
+  "main": "index.js",
+  "author": "senoe",
+  "repository": "github:senoe/comboformatter",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
