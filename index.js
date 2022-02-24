@@ -10,7 +10,8 @@ function main() {
     accts = accts.toString().split("\n");
 
     let acctsFormatted = [];
-    for (const line of accounts) {
+    for (let line of accts) {
+        line = line.replace(/\[[^\]]+\]/g, "");
         const elements = line.split(":");
         acctsFormatted.push(`${elements[0]}:${elements[1]}`);
     }
